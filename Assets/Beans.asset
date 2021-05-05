@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281e3b1006834ed9b2d14c8795613c21, type: 3}
+  m_Name: Beans
+  m_EditorClassIdentifier: 
+  title: Beans
+  type: Plant
+  effectsDescription: 'Requires support. Three Sisters: Adjecent corn and squash...'
+  flavorText: The musical fruit.
+  stats: 3/5
+  cost: 6
+  cardImage: https://fthmb.tqn.com/w5oBfJoFCvjM3ULi_BxVOJwr1l4=/3564x2377/filters:fill(auto,1)/182051238-56a6d3495f9b58b7d0e4ff39.jpg
+  id: 2

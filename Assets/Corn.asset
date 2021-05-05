@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281e3b1006834ed9b2d14c8795613c21, type: 3}
+  m_Name: Corn
+  m_EditorClassIdentifier: 
+  title: Corn
+  type: Plant
+  effectsDescription: 'Provides Support. Three Sisters: Adjacent beands and squash
+    get +1 yield.'
+  flavorText: Its so corny! I love corn
+  stats: 6 / 6
+  cost: 8
+  cardImage: http://www.freshpoint.com/wp-content/uploads/corn5.jpg
+  id: 1
