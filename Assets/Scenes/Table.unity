@@ -539,7 +539,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b46f82971977344268b1e592186c3d54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardPrefab: {fileID: 3947061881909487197, guid: 554fad7f5847a4f22ad19bf3001bf40f,
+  plantCardPrefab: {fileID: 3947061881909487197, guid: 554fad7f5847a4f22ad19bf3001bf40f,
+    type: 3}
+  substrateCardPrefab: {fileID: 3947061881909487197, guid: 3d4199799561d4d529fe876c9d74e712,
+    type: 3}
+  lifeCardPrefab: {fileID: 3947061881909487197, guid: bd52b8fd4f02c46e289ab504e307164f,
+    type: 3}
+  materialCardPrefab: {fileID: 3947061881909487197, guid: cd3ac773faf7d46c393a700baae19c28,
+    type: 3}
+  toolCardPrefab: {fileID: 3947061881909487197, guid: 5a9e567433f8c4e2fb05f97ed3d7eed9,
     type: 3}
   contentView: {fileID: 1085198654}
 --- !u!1 &542901109
@@ -690,7 +698,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1085198654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -698,14 +706,13 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 396.74, y: 484.5}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!114 &1085198657
 MonoBehaviour:
   m_ObjectHideFlags: 0
