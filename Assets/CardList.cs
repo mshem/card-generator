@@ -13,9 +13,12 @@ public class CardList : MonoBehaviour
     [SerializeField]
     private GameObject lifeCardPrefab;    
     [SerializeField]
-    private GameObject materialCardPrefab;    
+    private GameObject materialCardPrefab;
+
+    [SerializeField] private GameObject toolCardPrefab;
+    
     [SerializeField]
-    private GameObject toolCardPrefab;
+    private GameObject gardenerCardPrefab;
 
     [SerializeField] private GameObject contentView;
     
@@ -39,6 +42,9 @@ public class CardList : MonoBehaviour
             else if (card.card_type.ToLower().Contains("material"))
             {
                 cardObject = Instantiate(materialCardPrefab);
+            }else if (card.card_type.ToLower().Contains("gardener"))
+            {
+                cardObject = Instantiate(gardenerCardPrefab);
             }else
             {
                 cardObject = Instantiate(plantCardPrefab);
